@@ -23,15 +23,15 @@ class Diary extends Component {
           data: [
             {
               datetime: '2017-12-23T03:02:35+00:00',
-              eventType: "Medicine"
-            },
-            {
-              datetime: '2017-12-23T12:32:15+00:00',
               eventType: "Breakfast"
             },
             {
+              datetime: '2017-12-23T12:32:15+00:00',
+              eventType: "Lunch"
+            },
+            {
               datetime: '2017-12-23T12:24:21+00:00',
-              eventType: "Snack"
+              eventType: "Dinner"
             }
           ],
           key: '2017-12-23'
@@ -40,7 +40,7 @@ class Diary extends Component {
           data: [
             {
               datetime: '2017-12-22T02:57:32+00:00',
-              eventType: "Medicine"
+              eventType: "Breakfast"
             }
           ],
           key: '2017-12-22'
@@ -52,7 +52,7 @@ class Diary extends Component {
   }
 
   handleAddEvent() {
-
+    console.log('accecpted')
   }
 
   render() {
