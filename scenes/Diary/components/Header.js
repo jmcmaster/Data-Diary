@@ -8,9 +8,10 @@ class Header extends Component {
         <TextInput
           style={styles.input}
           value={this.props.value}
+          onChangeText={this.props.onChange}
           onSubmitEditing={this.props.onAddEventHandler}
           placeholder="What did you do today?"
-          blurOnSubmit={false}
+          blurOnSubmit={true}
           placeholderTextColor="white"
           returnKeyType="done"
         />
